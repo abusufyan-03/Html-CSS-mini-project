@@ -1,0 +1,161 @@
+/* Google Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    max-width: 370px;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.profile-card::before {
+    top: 0;
+    /* left: 0; */
+    border-radius: 24px 24px 0 0;
+    content: "";
+    position: absolute;
+    height: 36%;
+    width: 100%;
+    background-color: #4070f4;
+}
+.image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #4070f4;
+    border-radius: 50%;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.image .profile-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.about { 
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.job {
+    font-size: 15px;
+    font-weight: 400;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.link { 
+    text-decoration: none;
+    margin: 0 8px;
+    height: 34px;
+    width: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(53, 46, 46);
+    opacity: 1;
+}
+
+/* .social-media a i{
+    transition: all 0.5s ease-out;
+
+}  */
+
+
+
+
+
+.buttuns {
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #4977f7;
+    padding: 8px 24px;
+    border-radius: 24px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 109px;
+    display: inline-block;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0044ff;
+}
+
+.reacts {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.react i {
+    font-size: 20px;
+    margin-right: 6px;
+}
+.react {
+    padding: 0 20px;
+    color: #333;
+    border-right: 2px solid #e7e7e7;
+    
+}
+
+.react:last-child {
+    border-right: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .social-media a i {
+        color: rgb(53, 46, 46);
+        opacity: 0.5;
+        transition: all 0.5s ease-out;
+    }
+    .social-media a i:hover {
+    transform: scale(1.2);
+    opacity: 1;
+    }
+
+
+}
+
+
