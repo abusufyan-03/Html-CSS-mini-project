@@ -3,6 +3,7 @@ In laptop
 ![HTML CSS mini project](https://github.com/abusufyan-03/Html-CSS-mini-project/assets/143246571/6b74e759-c1df-42a2-8210-27b73240cdcb)
 
 In Phone
+
 ![HTML CSS mini project(mobile)](https://github.com/abusufyan-03/Html-CSS-mini-project/assets/143246571/4ba3de19-10a6-470b-a8d3-1c4494855d40)
 
 
