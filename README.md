@@ -16,10 +16,12 @@ This repository contains a profile card built with HTML and CSS. It features a p
 ## Why the project is useful
 
 &#10687; This project serves as a basic template for creating profile cards.
+
 &#10687; It demonstrates the use of HTML for semantic structure and CSS for styling.
 
 ## Technologies Used
 &#10687; HTML5
+
 &#10687; CSS3
 
 
