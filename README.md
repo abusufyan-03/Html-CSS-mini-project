@@ -8,7 +8,9 @@ This repository contains a profile card built with HTML and CSS. It features a p
 ## What the project does
 
 &#10687; Displays a user's profile picture
+
 &#10687; Provides a short biography
+
 &#10687; Includes links to social media accounts
 
 ## Why the project is useful
