@@ -1,6 +1,6 @@
 # Html-CSS-mini-project
 In laptop
-![HTML CSS mini project](![image](https://github.com/user-attachments/assets/f4ba1f0f-2413-4580-aecf-4573962b1a21)
+![image](https://github.com/user-attachments/assets/178fa5e2-d495-457f-b00f-eebca348d719)
 )
 
 In Phone
